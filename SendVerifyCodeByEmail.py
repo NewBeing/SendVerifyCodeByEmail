@@ -20,12 +20,12 @@ def verifyemail(eml):
             ############验证码生成完毕##############
 
             message = email.mime.multipart.MIMEMultipart()
-            msgFrom = 'ToDo.Mylist@gmail.com@gmail.com' #从该邮箱发送
+            msgFrom = 'xxxx@gmail.com' #从该邮箱发送
             msgTo = eml #发送到该邮箱
             smtpSever='smtp.gmail.com' # 163邮箱的smtp Sever地址
             #smtpPort = '25' #开放的端口--163
             smtpPort = '587'
-            sqm='bupt_todomy'  # 在登录smtp时需要login中的密码应当使用授权码而非账户密码
+            sqm='xxx'  # 在登录smtp时需要login中的密码应当使用授权码而非账户密码
             message['from'] = msgFrom
             message['to'] = msgTo
             message['subject'] = 'TODOLIST: Please Verify Your Account '
@@ -73,5 +73,5 @@ def verifyemail(eml):
     }
     return output
 
-
-print (verifyemail('1058782869@qq.com'))
+#测试
+print (verifyemail('10xxxx9@qq.com'))
