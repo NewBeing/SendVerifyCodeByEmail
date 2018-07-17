@@ -41,9 +41,9 @@ def verifyemail(eml):
 
 
             TODOLIST TEAM@copyright
-            todo_list@163.com
+            toxxxst@163.com
             Company: TODOLIST TEAM
-            Address: Beijing University of Posts and Telecommunications
+            Address: Beijing xxxxxations
 
             '''
             #content = 'hello everyone'
